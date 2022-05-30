@@ -5,121 +5,122 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
+    <nav class="flex items-center justify-between flex-wrap bg-black p-6">
+      <RouterLink
+        to="/"
+        class="flex items-center flex-shrink-0 text-white mr-6"
+      >
+        <img src="/logo.svg" alt="" />
+      </RouterLink>
 
-    <div class="wrapper">
-      <HelloWorld msg="Base Vite Vue Tailwind" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow text-right">
+          <RouterLink
+            to="/Don"
+            class="
+              block
+              mt-4
+              lg:inline-block lg:mt-0
+              text-white
+              hover:text-Boutons-1
+              mr-10
+              font-Barlow font-bold
+              leadin-7
+              text-xl
+            "
+            >Programmation
+          </RouterLink>
+          <RouterLink
+            to="/Galerie"
+            class="
+              block
+              mt-4
+              lg:inline-block lg:mt-0
+              text-white
+              hover:text-Boutons-1
+              mr-10
+              font-Barlow font-bold
+              leadin-7
+              text-xl
+            "
+            >Artistes
+          </RouterLink>
+          <RouterLink
+            to="/Contact"
+            class="
+              block
+              mt-4
+              lg:inline-block lg:mt-0
+              text-white
+              hover:text-Boutons-1
+              mr-10
+              font-Barlow font-bold
+              leadin-7
+              text-xl
+            "
+            >Le festival
+          </RouterLink>
+          <RouterLink
+            to="/Propos"
+            class="
+              block
+              mt-4
+              lg:inline-block lg:mt-0
+              text-white
+              hover:text-Boutons-1
+              mr-10
+              font-Barlow font-bold
+              leadin-7
+              text-xl
+            "
+            >Contact
+          </RouterLink>
+        </div>
+      </div>
+    </nav>
   </header>
+  <footer class="bg-black text-center lg:text-left">
+    <div class="container p-6 text-gray-800">
+      <div class="grid lg:grid-cols-2 gap-4">
+        <div class="mb-6 md:mb-0">
+          <h5 class="font-medium mb-2 uppercase text-white text-center">
+            Retrouvez nous sur
+          </h5>
+          <div class="flex justify-evenly mt-10">
+            <img src="/facebook.svg" alt="facebook" />
+            <img src="/insta.svg" alt="instagram" />
+            <img src="/tiktok.svg" alt="tiktok" />
+            <img src="/twitter.svg" alt="twitter" />
+            <img src="/youtube.svg" alt="youtube" />
+          </div>
+        </div>
 
-  <RouterView />
+        <div class="mb-6 md:mb-0">
+          <h5 class="font-medium mb-2 uppercase text-white text-center">
+            En partenariat avec
+          </h5>
+          <div class="flex justify-evenly mt-10">
+            <img src="/sables.png" alt="Logo les sables d'olonne" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="
+        text-center text-white
+        p-4
+        bg-black
+        font-Barlow font-bold
+        leadin-7
+        text-xl
+      "
+    >
+      Mentions légales
+    </div>
+  </footer>
 </template>
 
 <style>
 @import "@/assets/base.css";
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
-}
-
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
 </style>
