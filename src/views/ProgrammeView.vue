@@ -2,9 +2,9 @@
   <main class="bg-violet-800">
     <div class="flex p-10 items-center">
       <img src="/Eclipse.svg" alt="Eclipse" />
-      <p class="text-7xl font-Barlow text-white leading-none font-bold">
+      <h2 class="text-7xl font-Barlow text-white leading-none font-bold">
         Programmation
-      </p>
+      </h2>
     </div>
     <div class="mb-20">
       <div class="flex justify-end">
@@ -92,15 +92,14 @@
         Scène principale
       </div>
       <div class="text-white flex justify-evenly text-2xl font-bold pb-10">
-        <p>Clairo</p>
-        <p>Mitski</p>
-        <p>Baebedobee</p>
+        <p>Arcade Fire</p>
+        <p>The Neighbourhood</p>
+        <p>Arctic Monkeys</p>
       </div>
-      <div class="text-white flex justify-evenly text-2xl font-bold pb-20">
-        <p>Snail Mail</p>
-        <p>Alvvays</p>
-        <p>Fazerdaze</p>
-        <p>Arlie</p>
+      <div class="text-white flex justify-around text-2xl font-bold pb-20">
+        <p>Tame Impala</p>
+        <p>The Strokes</p>
+        <p>Nothing but Thieves</p>
       </div>
     </div>
     <div class="flex justify-start"></div>
@@ -122,10 +121,9 @@
 
       <div class="text-2xl font-bold text-black">
         <div class="flex justify-evenly">
-          <p>Vance Joy</p>
-          <p>Lucy Dacus</p>
-          <p>Hazel English</p>
-          <p>Jay Som</p>
+          <p>Lupine</p>
+          <p>School of Seven Bells</p>
+          <p>Surf Curse</p>
         </div>
       </div>
     </div>

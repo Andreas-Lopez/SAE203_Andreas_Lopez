@@ -107,7 +107,8 @@ import HelloWorld from "@/components/HelloWorld.vue";
       </div>
     </div>
 
-    <div
+    <RouterLink
+      to="/Mentions"
       class="
         text-center text-white
         p-4
@@ -115,10 +116,12 @@ import HelloWorld from "@/components/HelloWorld.vue";
         font-Barlow font-bold
         leadin-7
         text-xl
+        flex
+        justify-center
       "
     >
       Mentions légales
-    </div>
+    </RouterLink>
   </footer>
 </template>
 
