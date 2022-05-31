@@ -68,8 +68,21 @@
         </div>
       </div>
     </div>
-
-    <div class="flex justify-end">
+    <RouterLink
+      to="/Concert"
+      class="
+        bg-violet-600
+        text-center
+        underline
+        text-white text-xl
+        font-bold
+        flex
+        justify-center
+      "
+    >
+      Voir les différentes scènes
+    </RouterLink>
+    <div class="flex justify-end mt-20">
       <div
         class="
           bg-yellow-600

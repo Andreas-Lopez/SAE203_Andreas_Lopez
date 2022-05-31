@@ -9,10 +9,10 @@
     <div
       class="block p-6 rounded-lg shadow-lg bg-black max-w-md ml-auto mr-auto"
     >
-      <form>
+      <form class="m-2">
         <div class="form-group mb-6">
           <input
-            type="text"
+            type="email"
             class="
               form-control
               block
@@ -39,7 +39,7 @@
         </div>
         <div class="form-group mb-6">
           <input
-            type="email"
+            type="text"
             class="
               form-control
               block
@@ -113,6 +113,7 @@
         >
           Envoyer
         </button>
+        <img class="mt-5" src="/carte.png" alt="Carte" />
       </form>
     </div>
   </main>
