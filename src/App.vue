@@ -16,7 +16,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow text-right">
           <RouterLink
-            to="/Don"
+            to="/Programme"
             class="
               block
               mt-4
@@ -31,7 +31,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
             >Programmation
           </RouterLink>
           <RouterLink
-            to="/Galerie"
+            to="/Artistes"
             class="
               block
               mt-4
@@ -46,7 +46,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
             >Artistes
           </RouterLink>
           <RouterLink
-            to="/Contact"
+            to="/Festival"
             class="
               block
               mt-4
@@ -61,7 +61,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
             >Le festival
           </RouterLink>
           <RouterLink
-            to="/Propos"
+            to="/Contact"
             class="
               block
               mt-4
@@ -79,6 +79,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
       </div>
     </nav>
   </header>
+  <RouterView />
   <footer class="bg-black text-center lg:text-left">
     <div class="container p-6 text-gray-800">
       <div class="grid lg:grid-cols-2 gap-4">
