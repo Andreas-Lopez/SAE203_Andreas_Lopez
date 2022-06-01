@@ -1,8 +1,17 @@
 <template>
   <main class="bg-violet-800">
-    <div class="flex p-10 items-center">
+    <div class="flex p-4 items-center">
       <img src="/Eclipse.svg" alt="Eclipse" />
-      <h2 class="text-7xl font-Barlow text-white leading-none font-bold">
+      <h2
+        class="
+          xl:text-7xl
+          text-xl
+          font-Barlow
+          text-white
+          leading-none
+          font-bold
+        "
+      >
         Contact
       </h2>
     </div>

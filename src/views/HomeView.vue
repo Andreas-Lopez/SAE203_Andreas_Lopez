@@ -1,12 +1,21 @@
 
 <template>
   <main class="bg-black">
-    <div class="bg-[url('/imgacc.png')] overflow-hidden bg-cover">
+    <div
+      class="
+        bg-[url('/imgacc.png')]
+        w-full
+        overflow-hidden
+        items-center
+        bg-cover bg-center
+      "
+    >
       <p
         class="
-          text-yellow-400 text-5xl
+          text-yellow-400 text-xl
           leading-none
           font-bold font-Barlow
+          xl:text-4xl
           ml-14
           mt-14
         "
@@ -16,11 +25,12 @@
       <p
         class="
           font-Barlow
-          text-white text-9xl
+          text-white text-5xl
           leading-none
           font-bold
           mt-14
           ml-14
+          xl:text-9xl
         "
       >
         Festival
@@ -28,11 +38,12 @@
       <p
         class="
           font-Barlow
-          text-white text-9xl
+          text-white text-5xl
           leading-none
           font-bold
           mb-48
           ml-14
+          xl:text-9xl
         "
       >
         Waveland
@@ -45,12 +56,13 @@
       class="
         bg-yellow-300
         w-full
-        text-6xl
+        text-3xl
+        xl:text-6xl
         leading-none
         font-bold font-Barlow
         text-violet-900 text-center
-        pt-24
-        pb-24
+        pt-14
+        pb-14
       "
     >
       Actualités du Waveland
@@ -59,7 +71,7 @@
       <div class="flex justify-evenly pt-24">
         <div class="border-4 border-yellow-600">
           <img
-            class="border-4 border-yellow-300"
+            class="border-4 border-yellow-300 w-full"
             src="/img1.png"
             alt="Illustration 1"
           />
@@ -79,7 +91,7 @@
         </div>
         <div class="border-4 border-yellow-600">
           <img
-            class="border-4 border-yellow-300"
+            class="border-4 border-yellow-300 w-full"
             src="/img2.png"
             alt="Illustration 2"
           />
@@ -99,10 +111,10 @@
         </div>
       </div>
 
-      <div class="flex justify-evenly pt-24 pb-24">
+      <div class="flex justify-evenly pt-14 pb-14">
         <div class="border-4 border-yellow-600">
           <img
-            class="border-4 border-yellow-300"
+            class="border-4 border-yellow-300 w-full"
             src="/img3.png"
             alt="Illustration 3"
           />
@@ -122,7 +134,7 @@
         </div>
         <div class="border-4 border-yellow-600">
           <img
-            class="border-4 border-yellow-300"
+            class="border-4 border-yellow-300 w-full"
             src="/img4.png"
             alt="Illustration 4"
           />

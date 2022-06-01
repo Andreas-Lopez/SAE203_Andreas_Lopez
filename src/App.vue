@@ -5,80 +5,139 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
 <template>
   <header>
-    <nav class="flex items-center justify-between flex-wrap bg-black p-6">
-      <RouterLink
-        to="/"
-        class="flex items-center flex-shrink-0 text-white mr-6"
-      >
-        <img src="/logo.svg" alt="" />
-      </RouterLink>
+    <nav
+      class="
+        flex
+        items-center
+        justify-between
+        flex-wrap
+        bg-black
+        p-6
+        fixed
+        w-full
+        z-10
+        top-0
+      "
+    >
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <RouterLink
+          to="/"
+          class="text-white no-underline hover:text-white hover:no-underline"
+        >
+          <div class="text-2xl pl-2">
+            <img src="/logo.svg" alt="logo" class="em em-grinning" />
+          </div>
+        </RouterLink>
+      </div>
 
-      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div class="text-sm lg:flex-grow text-right">
-          <RouterLink
-            to="/Programme"
-            class="
-              block
-              mt-4
-              lg:inline-block lg:mt-0
-              text-white
-              hover:text-Boutons-1
-              mr-10
-              font-Barlow font-bold
-              leadin-7
-              text-xl
-            "
-            >Programmation
-          </RouterLink>
-          <RouterLink
-            to="/Artistes"
-            class="
-              block
-              mt-4
-              lg:inline-block lg:mt-0
-              text-white
-              hover:text-Boutons-1
-              mr-10
-              font-Barlow font-bold
-              leadin-7
-              text-xl
-            "
-            >Artistes
-          </RouterLink>
-          <RouterLink
-            to="/Festival"
-            class="
-              block
-              mt-4
-              lg:inline-block lg:mt-0
-              text-white
-              hover:text-Boutons-1
-              mr-10
-              font-Barlow font-bold
-              leadin-7
-              text-xl
-            "
-            >Le festival
-          </RouterLink>
-          <RouterLink
-            to="/Contact"
-            class="
-              block
-              mt-4
-              lg:inline-block lg:mt-0
-              text-white
-              hover:text-Boutons-1
-              mr-10
-              font-Barlow font-bold
-              leadin-7
-              text-xl
-            "
-            >Contact
-          </RouterLink>
-        </div>
+      <div class="block lg:hidden">
+        <button
+          id="nav-toggle"
+          class="
+            flex
+            items-center
+            px-3
+            py-2
+            border
+            rounded
+            text-gray-500
+            border-gray-600
+            hover:text-white hover:border-white
+          "
+        >
+          <svg
+            class="fill-current h-3 w-3"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+
+      <div
+        class="
+          w-full
+          flex-grow
+          lg:flex lg:items-center lg:w-auto
+          hidden
+          lg:block
+          pt-6
+          lg:pt-0
+        "
+        id="nav-content"
+      >
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <li class="mr-3">
+            <RouterLink
+              to="/Programme"
+              class="
+                inline-block
+                text-gray-600
+                no-underline
+                hover:text-gray-200 hover:text-underline
+                py-2
+                px-4
+                text-xl
+                font-bold
+              "
+              >Programmation</RouterLink
+            >
+          </li>
+          <li class="mr-3">
+            <RouterLink
+              to="/Artistes"
+              class="
+                inline-block
+                text-gray-600
+                no-underline
+                hover:text-gray-200 hover:text-underline
+                py-2
+                px-4
+                text-xl
+                font-bold
+              "
+              >Artistes</RouterLink
+            >
+          </li>
+          <li class="mr-3">
+            <RouterLink
+              to="/Festival"
+              class="
+                inline-block
+                text-gray-600
+                no-underline
+                hover:text-gray-200 hover:text-underline
+                py-2
+                px-4
+                text-xl
+                font-bold
+              "
+              >Le festival</RouterLink
+            >
+          </li>
+          <li class="mr-3">
+            <RouterLink
+              to="/Contact"
+              class="
+                inline-block
+                text-gray-600
+                no-underline
+                hover:text-gray-200 hover:text-underline
+                py-2
+                px-4
+                text-xl
+                font-bold
+              "
+              >Contact</RouterLink
+            >
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
+
   <RouterView />
   <footer class="bg-black text-center lg:text-left">
     <div class="container p-6 text-gray-800">
@@ -124,6 +183,12 @@ import HelloWorld from "@/components/HelloWorld.vue";
     </RouterLink>
   </footer>
 </template>
+
+<script>
+document.getElementById("nav-toggle").onclick = function () {
+  document.getElementById("nav-content").classList.toggle("hidden");
+};
+</script>
 
 <style>
 @import "@/assets/base.css";
