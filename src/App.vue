@@ -13,7 +13,6 @@ import HelloWorld from "@/components/HelloWorld.vue";
         flex-wrap
         bg-black
         p-6
-        fixed
         w-full
         z-10
         top-0
@@ -74,11 +73,10 @@ import HelloWorld from "@/components/HelloWorld.vue";
               to="/Programme"
               class="
                 inline-block
-                text-gray-600
-                no-underline
-                hover:text-gray-200 hover:text-underline
                 py-2
                 px-4
+                text-white
+                hover:text-underline
                 text-xl
                 font-bold
               "
@@ -90,9 +88,9 @@ import HelloWorld from "@/components/HelloWorld.vue";
               to="/Artistes"
               class="
                 inline-block
-                text-gray-600
                 no-underline
-                hover:text-gray-200 hover:text-underline
+                text-white
+                hover:text-underline
                 py-2
                 px-4
                 text-xl
@@ -106,9 +104,9 @@ import HelloWorld from "@/components/HelloWorld.vue";
               to="/Festival"
               class="
                 inline-block
-                text-gray-600
                 no-underline
-                hover:text-gray-200 hover:text-underline
+                text-white
+                hover:text-underline
                 py-2
                 px-4
                 text-xl
@@ -122,9 +120,9 @@ import HelloWorld from "@/components/HelloWorld.vue";
               to="/Contact"
               class="
                 inline-block
-                text-gray-600
                 no-underline
-                hover:text-gray-200 hover:text-underline
+                text-white
+                hover:text-underline
                 py-2
                 px-4
                 text-xl
@@ -185,9 +183,6 @@ import HelloWorld from "@/components/HelloWorld.vue";
 </template>
 
 <script>
-document.getElementById("nav-toggle").onclick = function () {
-  document.getElementById("nav-content").classList.toggle("hidden");
-};
 </script>
 
 <style>

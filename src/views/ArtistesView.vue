@@ -299,5 +299,26 @@
         </p>
       </div>
     </div>
+
+    <div>
+      <h5>Liste des pays - Simple liste</h5>
+    </div>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Nom</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="artistes in listePays" :key="artistes.id">
+          <td>{{ artistes.id }}</td>
+          <td>{{ artistes.nom }}</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
   </main>
 </template>
