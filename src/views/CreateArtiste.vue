@@ -5,7 +5,7 @@
         <div class="flex flex-col">
           <span class="">Nom de l'artiste</span>
           <input
-            class="artiste-input"
+            class="input-a"
             placeholder="Nom Artiste"
             v-model="artiste.nom"
             required
@@ -15,7 +15,7 @@
           <p>img</p>
           <input
             type="file"
-            class="artiste-input flex flex-wrap"
+            class="input-a flex flex-wrap"
             ref="file"
             id="file"
             @change="previewImage"
@@ -23,20 +23,6 @@
         </div>
         <div>
           <img class="w-20" :src="imageData" />
-        </div>
-
-        <div class="flex flex-col">
-          <p>Catégorie</p>
-
-          <select class="artiste-input" v-model="artiste.cat">
-            <option
-              class="bg-white text-black"
-              v-for="categorie in listeCat"
-              :key="categorie.libelle"
-            >
-              {{ categorie.libelle }}
-            </option>
-          </select>
         </div>
       </div>
 
@@ -51,16 +37,16 @@
 
 <script>
 import {
-  getFirestore, // Obtenir le Firestore
-  collection, // Utiliser une collection de documents
-  doc, // Obtenir un document par son id
-  getDocs, // Obtenir la liste des documents d'une collection
-  addDoc, // Ajouter un document à une collection
-  updateDoc, // Mettre à jour un document dans une collection
-  deleteDoc, // Supprimer un document d'une collection
-  onSnapshot, // Demander une liste de documents d'une collection, en les synchronisant
-  query, // Permet d'effectuer des requêtes sur Firestore
-  orderBy, // Permet de demander le tri d'une requête query
+  getFirestore,
+  collection,
+  doc,
+  getDocs,
+  addDoc,
+  updateDoc,
+  deleteDoc,
+  onSnapshot,
+  query,
+  orderBy,
 } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
 
 import {
@@ -79,7 +65,6 @@ export default {
       artiste: {
         nom: null,
         photo: null,
-        cat: null,
       },
     };
   },
