@@ -15,7 +15,7 @@
         Artistes
       </h2>
     </div>
-    <div class="flex flex-wrap overflow-hidden md:-mx-4 lg:-mx-4 xl:-mx-4 p-5">
+    <div class="flex flex-wrap overflow-hidden md:-mx-4 lg:-mx-4 xl:-mx-4 p-20">
       <div
         class="
           w-full
@@ -25,9 +25,9 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/arcadefire.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          Arcade Fire
         </p>
       </div>
 
@@ -40,10 +40,8 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
-        <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
-        </p>
+        <img src="/alvvays.png" alt="" />
+        <p class="text-center lg:text:4xl text-white text-xl pb-5">Alvvays</p>
       </div>
 
       <div
@@ -55,9 +53,9 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/arcticmonkeys.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          Arctic Monkeys
         </p>
       </div>
       <div
@@ -69,9 +67,21 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/arlie.png" alt="" />
+        <p class="text-center lg:text:4xl text-white text-xl pb-5">Arlie</p>
+      </div>
+      <div
+        class="
+          w-full
+          overflow-hidden
+          md:my-4 md:px-4 md:w-1/2
+          lg:my-4 lg:px-4 lg:w-1/3
+          xl:my-4 xl:px-4 xl:w-1/3
+        "
+      >
+        <img src="/baebadoobee.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          Baebadoobee
         </p>
       </div>
       <div
@@ -83,9 +93,33 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/clairo.png" alt="" />
+        <p class="text-center lg:text:4xl text-white text-xl pb-5">Clairo</p>
+      </div>
+      <div
+        class="
+          w-full
+          overflow-hidden
+          md:my-4 md:px-4 md:w-1/2
+          lg:my-4 lg:px-4 lg:w-1/3
+          xl:my-4 xl:px-4 xl:w-1/3
+        "
+      >
+        <img src="/fazerdaze.png" alt="" />
+        <p class="text-center lg:text:4xl text-white text-xl pb-5">Fazerdaze</p>
+      </div>
+      <div
+        class="
+          w-full
+          overflow-hidden
+          md:my-4 md:px-4 md:w-1/2
+          lg:my-4 lg:px-4 lg:w-1/3
+          xl:my-4 xl:px-4 xl:w-1/3
+        "
+      >
+        <img src="/hazelenglish.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          Hazel English
         </p>
       </div>
       <div
@@ -97,9 +131,21 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/jaysom.png" alt="" />
+        <p class="text-center lg:text:4xl text-white text-xl pb-5">Jay Som</p>
+      </div>
+      <div
+        class="
+          w-full
+          overflow-hidden
+          md:my-4 md:px-4 md:w-1/2
+          lg:my-4 lg:px-4 lg:w-1/3
+          xl:my-4 xl:px-4 xl:w-1/3
+        "
+      >
+        <img src="/lucydacus.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          Lucy Dacus
         </p>
       </div>
       <div
@@ -111,9 +157,33 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/lupine.png" alt="" />
+        <p class="text-center lg:text:4xl text-white text-xl pb-5">Lupine</p>
+      </div>
+      <div
+        class="
+          w-full
+          overflow-hidden
+          md:my-4 md:px-4 md:w-1/2
+          lg:my-4 lg:px-4 lg:w-1/3
+          xl:my-4 xl:px-4 xl:w-1/3
+        "
+      >
+        <img src="/mitski.png" alt="" />
+        <p class="text-center lg:text:4xl text-white text-xl pb-5">Mitski</p>
+      </div>
+      <div
+        class="
+          w-full
+          overflow-hidden
+          md:my-4 md:px-4 md:w-1/2
+          lg:my-4 lg:px-4 lg:w-1/3
+          xl:my-4 xl:px-4 xl:w-1/3
+        "
+      >
+        <img src="/nothing.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          Nothing but Thieves
         </p>
       </div>
       <div
@@ -125,9 +195,9 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/school.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          School of Seven Bells
         </p>
       </div>
       <div
@@ -139,9 +209,9 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/snailmail.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          Snail Mail
         </p>
       </div>
       <div
@@ -153,9 +223,9 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/surfcurse.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          Surf Curse
         </p>
       </div>
       <div
@@ -167,9 +237,9 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/tameimpala.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          Tame Impala
         </p>
       </div>
       <div
@@ -181,9 +251,9 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/then.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          The Neighbourhood
         </p>
       </div>
       <div
@@ -195,9 +265,9 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
+        <img src="/thestrokes.png" alt="" />
         <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
+          The Strokes
         </p>
       </div>
       <div
@@ -209,94 +279,8 @@
           xl:my-4 xl:px-4 xl:w-1/3
         "
       >
-        <img src="/defaut.png" alt="" />
-        <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
-        </p>
-      </div>
-      <div
-        class="
-          w-full
-          overflow-hidden
-          md:my-4 md:px-4 md:w-1/2
-          lg:my-4 lg:px-4 lg:w-1/3
-          xl:my-4 xl:px-4 xl:w-1/3
-        "
-      >
-        <img src="/defaut.png" alt="" />
-        <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
-        </p>
-      </div>
-      <div
-        class="
-          w-full
-          overflow-hidden
-          md:my-4 md:px-4 md:w-1/2
-          lg:my-4 lg:px-4 lg:w-1/3
-          xl:my-4 xl:px-4 xl:w-1/3
-        "
-      >
-        <img src="/defaut.png" alt="" />
-        <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
-        </p>
-      </div>
-      <div
-        class="
-          w-full
-          overflow-hidden
-          md:my-4 md:px-4 md:w-1/2
-          lg:my-4 lg:px-4 lg:w-1/3
-          xl:my-4 xl:px-4 xl:w-1/3
-        "
-      >
-        <img src="/defaut.png" alt="" />
-        <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
-        </p>
-      </div>
-      <div
-        class="
-          w-full
-          overflow-hidden
-          md:my-4 md:px-4 md:w-1/2
-          lg:my-4 lg:px-4 lg:w-1/3
-          xl:my-4 xl:px-4 xl:w-1/3
-        "
-      >
-        <img src="/defaut.png" alt="" />
-        <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
-        </p>
-      </div>
-      <div
-        class="
-          w-full
-          overflow-hidden
-          md:my-4 md:px-4 md:w-1/2
-          lg:my-4 lg:px-4 lg:w-1/3
-          xl:my-4 xl:px-4 xl:w-1/3
-        "
-      >
-        <img src="/defaut.png" alt="" />
-        <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
-        </p>
-      </div>
-      <div
-        class="
-          w-full
-          overflow-hidden
-          md:my-4 md:px-4 md:w-1/2
-          lg:my-4 lg:px-4 lg:w-1/3
-          xl:my-4 xl:px-4 xl:w-1/3
-        "
-      >
-        <img src="/defaut.png" alt="" />
-        <p class="text-center lg:text:4xl text-white text-xl pb-5">
-          Nom de l'artiste
-        </p>
+        <img src="/vancejoy.png" alt="" />
+        <p class="text-center lg:text:4xl text-white text-xl pb-5">Vance Joy</p>
       </div>
     </div>
 
@@ -321,14 +305,14 @@
         <td>{{ part.nationalite }}</td>
         <td>{{ dateFr(part.naissance) }}</td>
         <td>
-          <span title="Supprimer le participant" class="mr-2">
+          <span title="Supprimer l'artiste'" class="mr-2">
             <RouterLink
               :to="{ name: 'DeleteParticipant', params: { id: part.id } }"
             >
               <i class="fa fa-times fa-lg text-light"></i>
             </RouterLink>
           </span>
-          <span title="Modifier le participant" class="mr-2">
+          <span title="Modifier l'artiste'" class="mr-2">
             <!-- Pour passer un paramètre dans la navigation :
                                 On utilise le nom de la route
                                 l'attribut params, permet de préciser le nom du paramètre (id) 
