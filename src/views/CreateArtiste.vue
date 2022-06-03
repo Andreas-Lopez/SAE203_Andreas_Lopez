@@ -37,16 +37,16 @@
 
 <script>
 import {
-  getFirestore,
-  collection,
-  doc,
-  getDocs,
-  addDoc,
-  updateDoc,
-  deleteDoc,
-  onSnapshot,
-  query,
-  orderBy,
+  getFirestore, // Obtenir le Firestore
+  collection, // Utiliser une collection de documents
+  doc, // Obtenir un document par son id
+  getDocs, // Obtenir la liste des documents d'une collection
+  addDoc, // Ajouter un document à une collection
+  updateDoc, // Mettre à jour un document dans une collection
+  deleteDoc, // Supprimer un document d'une collection
+  onSnapshot, // Demander une liste de documents d'une collection, en les synchronisant
+  query, // Permet d'effectuer des requêtes sur Firestore
+  orderBy, // Permet de demander le tri d'une requête query
 } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
 
 import {
